@@ -3,11 +3,11 @@
 
   "initialDelaySeconds": 5,
   "showDurationSeconds": 5,
-  "repeatEverySeconds": 5,
+  "repeatEverySeconds": 20,
 
   "countdown": {
     "enabled": true,
-    "seconds": 13,
+    "seconds": 5,
     "autoCloseAtZero": true,
     "showCloseButtonAfterCountdown": false
   },
