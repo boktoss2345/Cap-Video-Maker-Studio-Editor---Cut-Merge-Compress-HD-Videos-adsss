@@ -1,9 +1,9 @@
 {
   "enabled": true,
 
-  "initialDelaySeconds": 5,
+  "initialDelaySeconds": 300,
   "showDurationSeconds": 5,
-  "repeatEverySeconds": 20,
+  "repeatEverySeconds": 5,
 
   "countdown": {
     "enabled": true,
