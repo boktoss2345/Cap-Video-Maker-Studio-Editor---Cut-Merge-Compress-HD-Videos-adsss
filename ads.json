@@ -9,36 +9,44 @@
     "enabled": true,
     "seconds": 13,
     "autoCloseAtZero": true,
-    "showCloseButtonAfterCountdown": true
+    "showCloseButtonAfterCountdown": false
   },
 
   "display": {
-    "type": "popup",
-    "widthPercent": 90,
-    "maxWidthDp": 430,
-    "cornerRadiusDp": 22,
+    "type": "imageOnly",
+    "widthPercent": 82,
+    "maxWidthDp": 420,
+    "cornerRadiusDp": 24,
     "overlayOpacity": 0.82,
     "dismissOnOutsideTap": false,
-    "dismissOnBackPress": false
+    "dismissOnBackPress": false,
+    "showTitle": false,
+    "showDescription": false,
+    "showButton": false,
+    "imageClickable": true,
+    "centerImage": true,
+    "preserveAspectRatio": true
   },
 
   "behavior": {
     "selectionMode": "random",
     "refreshConfigBeforeShow": true,
-    "pauseWhileAppInBackground": true
+    "pauseWhileAppInBackground": true,
+    "avoidImmediateRepeat": true
   },
 
   "button": {
-    "enabled": true
+    "enabled": false
   },
 
   "ads": [
     {
       "id": "recipe_keeper_01",
       "enabled": true,
-      "title": "Recipe Keeper",
-      "image": "PUT_YOUR_GITHUB_IMAGE_URL_HERE",
-      "buttonText": "View App",
+      "title": "",
+      "description": "",
+      "image": "https://boktoss2345.github.io/Cap-Video-Maker-Studio-Editor---Cut-Merge-Compress-HD-Videos-adsss/images/images4165.png",
+      "buttonText": "",
       "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
     }
   ]
