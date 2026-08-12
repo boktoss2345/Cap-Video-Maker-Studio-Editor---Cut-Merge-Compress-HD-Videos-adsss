@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "rotationInterval": 30,
+  "ads": [
+    {
+      "id": "ad1",
+      "enabled": true,
+      "title": "Photo Gallery for TV",
+      "description": "View your photos on the big screen",
+      "image": "https://example.com/banner.jpg",
+      "buttonText": "View App",
+      "url": "https://www.amazon.com/dp/YOUR_ASIN"
+    }
+  ]
+}
