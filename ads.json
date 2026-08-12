@@ -1,15 +1,45 @@
 {
   "enabled": true,
-  "rotationInterval": 30,
+
+  "initialDelaySeconds": 13,
+  "showDurationSeconds": 13,
+  "repeatEverySeconds": 13,
+
+  "countdown": {
+    "enabled": true,
+    "seconds": 13,
+    "autoCloseAtZero": true,
+    "showCloseButtonAfterCountdown": true
+  },
+
+  "display": {
+    "type": "popup",
+    "widthPercent": 90,
+    "maxWidthDp": 430,
+    "cornerRadiusDp": 22,
+    "overlayOpacity": 0.82,
+    "dismissOnOutsideTap": false,
+    "dismissOnBackPress": false
+  },
+
+  "behavior": {
+    "selectionMode": "random",
+    "refreshConfigBeforeShow": true,
+    "pauseWhileAppInBackground": true
+  },
+
+  "button": {
+    "enabled": true
+  },
+
   "ads": [
     {
-      "id": "ad1",
+      "id": "recipe_keeper_01",
       "enabled": true,
-      "title": "Photo Gallery for TV",
-      "description": "View your photos on the big screen",
-      "image": "https://example.com/banner.jpg",
+      "title": "Recipe Keeper",
+      "image": "PUT_YOUR_GITHUB_IMAGE_URL_HERE",
       "buttonText": "View App",
-      "url": "https://www.amazon.com/dp/YOUR_ASIN"
+      "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
     }
   ]
 }
