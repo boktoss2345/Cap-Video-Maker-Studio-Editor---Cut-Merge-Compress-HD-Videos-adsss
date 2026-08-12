@@ -1,7 +1,7 @@
 {
   "enabled": true,
 
-  "initialDelaySeconds": 13,
+  "initialDelaySeconds": 5,
   "showDurationSeconds": 13,
   "repeatEverySeconds": 13,
 
